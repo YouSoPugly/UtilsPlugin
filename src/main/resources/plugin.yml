@@ -1,0 +1,5 @@
+name: Utils
+version: ${project.version}
+main: xyz.pugly.utils.Utils
+api-version: 1.16
+load: STARTUP
