@@ -63,6 +63,7 @@ public class CommandHandler implements CommandExecutor, TabCompleter {
         }
         //Unknown command message
         cs.sendMessage(ConfigHandler.getUnknownCommandMessage());
+
         //Send help maybe
         return true;
     }
