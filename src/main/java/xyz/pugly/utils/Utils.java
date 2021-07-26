@@ -1,3 +1,5 @@
+// Copyright 2021, Dylan Priebe, All rights reserved.
+
 package xyz.pugly.utils;
 
 import org.bukkit.Bukkit;
