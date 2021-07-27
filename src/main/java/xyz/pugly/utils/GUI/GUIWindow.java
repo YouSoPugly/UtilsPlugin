@@ -5,6 +5,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.event.inventory.InventoryOpenEvent;
 import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -73,6 +74,16 @@ public class GUIWindow {
         this.items.put(slot, item);
         this.inv.setItem(slot, item.getBukkitItem());
 
+    }
+
+    public void fill(GUIItem item) {
+
+        ItemStack bukkitItem = item.getBukkitItem();
+
+        for (int i = 0; i < inv.getSize(); i++) {
+            items.put(i, item);
+            inv.setItem(i, bukkitItem);
+        }
     }
 
     public GUIItem getItem(int slot) {
