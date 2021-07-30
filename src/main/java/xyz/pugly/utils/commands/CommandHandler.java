@@ -1,4 +1,4 @@
-package xyz.pugly.utils.Command;
+package xyz.pugly.utils.commands;
 
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -7,7 +7,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import xyz.pugly.utils.ConfigHandler;
-import xyz.pugly.utils.TextUtils;
 
 import java.util.ArrayList;
 import java.util.List;

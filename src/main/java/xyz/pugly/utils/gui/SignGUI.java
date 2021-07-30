@@ -1,4 +1,4 @@
-package xyz.pugly.utils.GUI;
+package xyz.pugly.utils.gui;
 
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolLibrary;

@@ -1,4 +1,4 @@
-package xyz.pugly.utils.GUI;
+package xyz.pugly.utils.gui;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

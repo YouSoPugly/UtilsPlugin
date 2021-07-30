@@ -5,8 +5,8 @@ package xyz.pugly.utils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
-import xyz.pugly.utils.GUI.GUIListener;
-import xyz.pugly.utils.GUI.SignGUI;
+import xyz.pugly.utils.gui.GUIListener;
+import xyz.pugly.utils.gui.SignGUI;
 
 public final class Utils extends JavaPlugin {
 

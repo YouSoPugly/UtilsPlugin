@@ -1,4 +1,4 @@
-package xyz.pugly.utils.GUI;
+package xyz.pugly.utils.gui;
 
 import org.bukkit.Material;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -25,11 +25,11 @@ public class GUIItem {
         this.item = item;
     }
 
-    ItemStack getBukkitItem() {
+    public ItemStack getBukkitItem() {
         return this.item;
     }
 
-    void invClick(InventoryClickEvent e) {
+    public void invClick(InventoryClickEvent e) {
         this.invClick.accept(e);
     }
 

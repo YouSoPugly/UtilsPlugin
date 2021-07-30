@@ -1,4 +1,4 @@
-package xyz.pugly.utils.Command;
+package xyz.pugly.utils.commands;
 
 import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
